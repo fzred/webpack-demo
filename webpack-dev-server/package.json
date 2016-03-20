@@ -1,0 +1,32 @@
+{
+  "name": "webpack-dev-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node hot-server.js",
+    "http-server": "http-server -p 9090"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzred/webpack-demo.git"
+  },
+  "keywords": [
+    "webpack-dev-server"
+  ],
+  "author": "lred",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fzred/webpack-demo/issues"
+  },
+  "homepage": "https://github.com/fzred/webpack-demo#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "underscore-contrib": "^0.3.0"
+  }
+}

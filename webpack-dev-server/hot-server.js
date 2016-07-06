@@ -17,9 +17,7 @@ config.output.publicPath = 'http://localhost:8080/static/';
 
 config.plugins = (config.plugins || []).concat([
     // https://github.com/glenjamin/webpack-hot-middleware#installation--usage
-    new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin(),
 ]);
 
 var compiler = webpack(config);
